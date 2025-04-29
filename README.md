@@ -60,7 +60,7 @@ We used the **WikiArt Dataset** from Kaggle, which includes:
 To evaluate the model's performance on your own images in Google Colab:
 
 1. Upload `image1.jpg`, `image2.jpg`, and `image3.jpg` (or similar test images)
-2. Run the prediction cells to see how each model performs on unseen artwork
+2. Run the prediction cells to see how each model performs on seen and unseen artwork
 
 ---
 
