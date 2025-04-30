@@ -8,16 +8,16 @@ We trained and compared four models to understand how architectural choices, dat
 
 ## 🧠 Models Trained
 
-- **Baseline Model**  
+- **Baseline Model - Alison**  
   A standard CNN model without any balancing or augmentation.
 
-- **Baseline + Class Weights**  
+- **Baseline + Class Weights - Alison**  
   Same CNN model trained with class weighting to address dataset imbalance.
 
-- **Data Augmented Model**  
+- **Data Augmented Model - Jinho**  
   The baseline model enhanced with data augmentation techniques: horizontal flip, rotation, zoom, contrast, and translation.
 
-- **ResNet50 Model**  
+- **ResNet50 Model - Cindy**  
   A transfer learning model using a pre-trained ResNet50 as a feature extractor.
 
 ---
@@ -33,16 +33,16 @@ We used the **WikiArt Dataset** from Kaggle, which includes:
 
 ## 🧰 Key Techniques Used
 
-- **Data Augmentation**  
+- **Data Augmentation - Jinho**  
   To increase dataset diversity and help prevent overfitting.
 
-- **Class Weights**  
+- **Class Weights - Alison**  
   Applied to mitigate class imbalance during training.
 
-- **Transfer Learning**  
+- **Transfer Learning - Cindy**  
   Used ResNet50’s pre-trained capabilities for better feature extraction.
 
-- **Early Stopping and Checkpointing**  
+- **Early Stopping and Checkpointing - Cindy**  
   To prevent overfitting and automatically save the best performing model.
 
 ---
